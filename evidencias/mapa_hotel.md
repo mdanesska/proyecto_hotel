@@ -2,17 +2,17 @@
 
 Completa la función de cada componente del repositorio dentro del stack del data analyst:
 
-```text
+
 gran-hotel-data-escape/
-├── 📄 README.md                 --> [Función del archivo]
-├── ⚙️ requirements.txt          --> [Función del archivo]
+├── 📄 README.md                 --> [Instrucciones generales de la actividad/proyecto]
+├── ⚙️ requirements.txt          --> [Librerias a instalar que seran necesarias para el proyecto]
 ├── 📂 data/
-│   └── 📊 reservas_raw.csv      --> [Función del archivo]
-├── 📂 misiones/                 --> [Función de la carpeta]
-├── 📂 pistas/                   --> [Función de la carpeta]
+│   └── 📊 reservas_raw.csv      --> [Dataset bruto con reservas, valores nulos y duplicados.]
+├── 📂 misiones/                 --> [Cada puerta o actividad dentro del proyecto]
+├── 📂 pistas/                   --> [Pistas]
 ├── 📂 scripts/
-│   ├── 🛠️ make_dataset.py       --> [Función del script]
-│   └── 🛠️ conciliacion_hotel.py --> [Función del script]
+│   ├── 🛠️ make_dataset.py       --> [Analisis del dataset]
+│   └── 🛠️ conciliacion_hotel.py --> [Script de consola Python para filtrado inicial.]
 ├── 📂 notebooks/
-│   └── 🔮 analisis_gran_hotel.ipynb --> [Función del cuaderno]
-└── 📂 evidencias/               --> [Función de la carpeta]
+│   └── 🔮 analisis_gran_hotel.ipynb --> [Cuaderno interactivo de análisis final y DataViz.]
+└── 📂 evidencias/               --> [Para documentar la actividad]

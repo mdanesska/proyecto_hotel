@@ -21,8 +21,8 @@ Your branch is up to date with 'origin/main`
 ---
 
 ## 3. 🗺️ Arquitectura y Entorno (Puerta 4 - VS Code & Dependencies)
-* **Versión de Python detectada:** `...`
-* **Comando utilizado para instalar `requirements.txt`:** `...`
+* **Versión de Python detectada:** `3.15`
+* **Comando utilizado para instalar `requirements.txt`:** `pip install -r requirements.txt`
 * **Diferencia entre Ruta Absoluta y Ruta Relativa (explicación breve):** 
 
 ---
