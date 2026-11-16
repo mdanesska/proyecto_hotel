@@ -1,20 +1,22 @@
 # 📝 Bitácora de Investigación - Gran Hotel Olimpo
-**Equipo Auditor:** [Nombre Piloto] & [Nombre Copiloto]  
-**Fecha:** [DD/MM/AAAA]
+**Equipo Auditor:** Danesska & Daniela  
+**Fecha:** [13/11/2026]
 
 ---
 
 ## 1. 🔑 Hallazgo Inicial (Puerta 1 - Git Bash)
-* **Comando utilizado para encontrar la credencial oculta:** `...`
-* **Código de la Llave Maestra:** `...`
-* **Primera anomalía detectada en el servidor:** 
+* **Comando utilizado para encontrar la credencial oculta:** `cat .llave_maestra.txt`
+* **Código de la Llave Maestra:** `GH-OLIMPO-DATA-2026-KEY`
+* **Primera anomalía detectada en el servidor:**  Revisando la carpeta `data/reservas_raw.csv`, hemos descubierto que el atacante introdujo 10 FILAS TOTALMENTE DUPLICADAS e intencionadamente dejó celdas vacías (NaN) en precios y noches.
 
 ---
 
 ## 2. 🛡️ Registro de Control de Versiones (Puerta 2 - Git & GitHub)
-* **Comando para preparar archivos (Staging):** `...`
-* **Mensaje del primer commit local:** `...`
-* **URL del repositorio público en GitHub:** `https://github.com/...`
+* **Comando para preparar archivos (Staging):** `git init`
+* **Mensaje del primer commit local:** `git commit -m "feat: inicio de investigacion tras ataque al GRAN HOTEL OLIMPO"
+On branch main
+Your branch is up to date with 'origin/main`
+* **URL del repositorio público en GitHub:** `https://github.com/mdanesska/proyecto_hotel.git`
 
 ---
 
